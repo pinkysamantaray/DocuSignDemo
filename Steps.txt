@@ -1,0 +1,18 @@
+prerequisites:
+- to get the file , make it accessible and get the path ready using which the file can be from code.
+
+limitations:
+"Access-Control-Allow-Origin" issue
+Angularjs https(browser)-> server->DocuSign API> server->browser
+
+Steps:
+1. Call ESB service giving - //Authentication ("Username","Password","IntegratorKey")
+2. Send the envelope request(signing file uri)
+3. The Recipient View url
+4. Signing Ceremony
+
+
+Questions:
+1. "Username","Password","IntegratorKey"
+2. clientUserId
+3. Sending email
